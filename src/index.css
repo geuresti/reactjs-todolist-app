@@ -1,0 +1,49 @@
+* {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+}
+
+h1, h2, h3, input, button {
+  font-family: 'Pacifico', 'system-ui';
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  background: lightblue;
+}
+
+header {
+  display: flex;
+}
+
+.todo-item {
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.actionsContainer {
+  display: flex;
+  gap: 15px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  width: 50%;
+  border: 5px dashed red;
+}
